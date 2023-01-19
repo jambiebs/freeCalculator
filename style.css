@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root {
+    font-size: 62.5%;
+}
+.container {
+    width: 40vw;
+    height: 100vh;
+    background-color: white;
+    margin: 1em auto;
+    border-radius: 3em;
+    position: relative;
+    border: 2px solid blue;
+}
+.display {
+    font-size: 6rem;
+    font-weight: bold;
+    width: 95%;
+    height: 20vh;
+    background: none;
+    border: 0;
+    outline: 0;
+    box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 0.2em;
+    margin-top: 1rem;
+}
+.main-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: inherit;
+    height: inherit;
+    margin: 0 auto;
+}
+.btn {
+    height: 15%;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn input {
+    display: inline-block;
+    width: 20%;
+    height: 85%;
+    max-width: 720px;
+    margin: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+    background: none;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.3);
+    border-radius: 1rem;
+}
+.btn input:hover {
+    background-color: rgb(43, 43, 221);
+    color: white;
+    box-shadow: 5px 5px 12px 1px rgba(255, 254, 254, 0.3);
+
+}
+.btn .equal {
+    width: 44.1%;
+}
+.btn .equal:hover {
+    background-color: green;
+    color: white;
+    box-shadow: 5px 5px 12px 1px rgba(255, 254, 254, 0.3);
+
+}
+@media screen and (max-width: 720px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.display {
+    height: 19vh;
+}
+body {
+    margin: 0 0;
+}
+}
